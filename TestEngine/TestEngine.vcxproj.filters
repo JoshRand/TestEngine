@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="External CPP Files">
+      <UniqueIdentifier>{1EF542D1-0AD9-0327-7339-FE795F3CEEA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External CPP Files\ImGui">
+      <UniqueIdentifier>{C848422F-B46D-91AF-DDB8-763FC93C90CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External CPP Files\glm">
+      <UniqueIdentifier>{6DDEEFF5-59D8-1848-4245-AF582EDE7EB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External CPP Files\glm\detail">
+      <UniqueIdentifier>{8FB94BD4-FBD1-32FE-C47E-C2973056C797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E9C7FDCE-D52A-8D73-7EB0-C5296AF258F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Dependencies\ImGui\imgui.cpp">
+      <Filter>External CPP Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_draw.cpp">
+      <Filter>External CPP Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_impl_glfw.cpp">
+      <Filter>External CPP Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>External CPP Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_widgets.cpp">
+      <Filter>External CPP Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\glm\detail\glm.cpp">
+      <Filter>External CPP Files\glm\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
