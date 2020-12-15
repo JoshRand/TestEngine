@@ -88,12 +88,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\Source\Core\Core.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="..\Dependencies\ImGui\imgui.cpp" />
     <ClCompile Include="..\Dependencies\ImGui\imgui_draw.cpp" />
     <ClCompile Include="..\Dependencies\ImGui\imgui_impl_glfw.cpp" />
     <ClCompile Include="..\Dependencies\ImGui\imgui_impl_opengl3.cpp" />
     <ClCompile Include="..\Dependencies\ImGui\imgui_widgets.cpp" />
     <ClCompile Include="..\Dependencies\glm\detail\glm.cpp" />
+    <ClCompile Include="..\Source\Core\Core.cpp" />
     <ClCompile Include="..\Source\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

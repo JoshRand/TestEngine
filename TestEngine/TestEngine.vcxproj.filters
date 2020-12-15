@@ -13,9 +13,23 @@
     <Filter Include="External CPP Files\glm\detail">
       <UniqueIdentifier>{8FB94BD4-FBD1-32FE-C47E-C2973056C797}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{21EB8090-0D4E-1035-B6D3-48EBA215DCB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{192C3F5D-8542-3DF3-CEB9-C8143A0F0E7B}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{E9C7FDCE-D52A-8D73-7EB0-C5296AF258F6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{E145AD0A-4D5C-ABA0-96D3-36C202297C28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Core\Core.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Dependencies\ImGui\imgui.cpp">
@@ -35,6 +49,9 @@
     </ClCompile>
     <ClCompile Include="..\Dependencies\glm\detail\glm.cpp">
       <Filter>External CPP Files\glm\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Core.cpp">
+      <Filter>Source Files\Core</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\main.cpp">
       <Filter>Source Files</Filter>

@@ -2,8 +2,12 @@
 //
 
 #include <iostream>
-
+#include "Core/Core.h"
 int main()
 {
-    
+    core.Initialize();
+    while (1)
+    {
+        core.Update();
+    }
 }
