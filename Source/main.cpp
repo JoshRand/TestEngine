@@ -7,6 +7,7 @@
 int main()
 {
     core.Initialize();
+
     //Object my_object = new Object();
     while (1)
     {

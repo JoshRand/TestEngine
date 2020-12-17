@@ -19,6 +19,9 @@
     <Filter Include="Header Files\Core">
       <UniqueIdentifier>{192C3F5D-8542-3DF3-CEB9-C8143A0F0E7B}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\DebugComponents">
+      <UniqueIdentifier>{3DC12EC9-297C-1E75-D233-97BFBECD6805}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Registration Files">
       <UniqueIdentifier>{73DC85CC-5FC0-4622-C820-4175B42331A4}</UniqueIdentifier>
     </Filter>
@@ -31,6 +34,9 @@
     <Filter Include="Source Files\Core">
       <UniqueIdentifier>{E145AD0A-4D5C-ABA0-96D3-36C202297C28}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\DebugComponents">
+      <UniqueIdentifier>{052E1C78-F1E8-0B24-9AA0-846E863A56B4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Source\Core\Component.h">
@@ -41,6 +47,9 @@
     </ClInclude>
     <ClInclude Include="..\Source\Core\Object.h">
       <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\DebugComponents\JetPack.h">
+      <Filter>Header Files\DebugComponents</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\Registrations\ComponentMacros.inl">
       <Filter>Registration Files\Registrations</Filter>
@@ -73,6 +82,9 @@
     </ClCompile>
     <ClCompile Include="..\Source\Core\Object.cpp">
       <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\DebugComponents\JetPack.cpp">
+      <Filter>Source Files\DebugComponents</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\main.cpp">
       <Filter>Source Files</Filter>

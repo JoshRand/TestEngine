@@ -34,3 +34,6 @@ void Core::Update()
 
 	}
 }
+Object* Core::CreateObject() {
+
+}

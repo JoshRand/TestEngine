@@ -1,6 +1,6 @@
 #ifdef INCLUDES
 
-#include "../Source/JetPack.h"
+#include "../DebugComponents/JetPack.h"
 
 #else
 

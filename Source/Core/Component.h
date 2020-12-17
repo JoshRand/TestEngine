@@ -11,7 +11,7 @@ class Component {
 
 public:
 	virtual void Initialize() = 0;
-	virtual void Update(float delta_time);
+	virtual void Update(double delta_time) = 0;
 	virtual void Exit() = 0;
 
 	ComponentType getType();

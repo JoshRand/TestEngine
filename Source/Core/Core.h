@@ -18,7 +18,7 @@ public:
 	void Initialize();
 	void Exit();
 	void Update();
-
+	Object* CreateObject();
 
 };
 
