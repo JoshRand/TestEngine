@@ -91,6 +91,7 @@
     <ClInclude Include="..\Source\Core\Component.h" />
     <ClInclude Include="..\Source\Core\Core.h" />
     <ClInclude Include="..\Source\Core\Object.h" />
+    <ClInclude Include="..\Source\Registrations\ComponentMacros.inl" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Dependencies\ImGui\imgui.cpp" />

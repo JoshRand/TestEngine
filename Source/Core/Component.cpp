@@ -1,13 +1,12 @@
 #include "Component.h"
-
-const char*& Component::GetComponentName()
+const char* ComponentTypeNames[]
 {
-	return this->component_name_;
-}
-
-void Component::Initialize() {
-	
-}
-void Component::Update() {
-
+	#define REGISTER(Name) #Name,
+#include "../Registrations/ComponentMacros.inl"
+#undef REGISTER
+	"InvalidComponentTypesIndex"
+};
+ComponentType Component::getType()
+{
+	return type_;
 }

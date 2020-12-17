@@ -1,10 +1,18 @@
 #pragma once
+enum ComponentType
+{
+#define REGISTER(Name) CT_ ## Name,
+	#include "../Registrations/ComponentMacros.inl"
+#undef	REGISTER
+	NumberOfComponentTypes
+};
 class Component {
-	const char* component_name_;
+	ComponentType type_;
 
 public:
-	const char*& GetComponentName();
-	void Initialize();
-	void Update();
-	void Exit();
+	virtual void Initialize() = 0;
+	virtual void Update(float delta_time);
+	virtual void Exit() = 0;
+
+	ComponentType getType();
 };

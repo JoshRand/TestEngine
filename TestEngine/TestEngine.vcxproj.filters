@@ -19,6 +19,12 @@
     <Filter Include="Header Files\Core">
       <UniqueIdentifier>{192C3F5D-8542-3DF3-CEB9-C8143A0F0E7B}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Registration Files">
+      <UniqueIdentifier>{73DC85CC-5FC0-4622-C820-4175B42331A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Registration Files\Registrations">
+      <UniqueIdentifier>{F0556C0E-DCA6-5750-050B-4612F1BAEAB9}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{E9C7FDCE-D52A-8D73-7EB0-C5296AF258F6}</UniqueIdentifier>
     </Filter>
@@ -35,6 +41,9 @@
     </ClInclude>
     <ClInclude Include="..\Source\Core\Object.h">
       <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Registrations\ComponentMacros.inl">
+      <Filter>Registration Files\Registrations</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
