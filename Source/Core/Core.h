@@ -1,4 +1,6 @@
 #include <iostream>
+#include <vector>
+#include "Object.h"
 class Core {
 
 	bool engine_running_ = true;
@@ -8,6 +10,8 @@ class Core {
 	double delta_time_;
 	long long initial_time_;
 	long long final_time_;
+
+	std::vector<Object*> objects_;
 
 public:
 	

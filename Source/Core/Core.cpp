@@ -23,6 +23,10 @@ void Core::Update()
 
 	total_time_ += delta_time_;
 	test_time_ += delta_time_;
+
+	for (auto it = objects_.begin(); it != objects_.end(); ++it)
+		(*it)->Update(delta_time_);
+
 	if (test_time_ >= 1.0f)
 	{
 		test_time_ -= 1.0f;

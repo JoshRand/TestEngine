@@ -27,7 +27,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Source\Core\Component.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
     <ClInclude Include="..\Source\Core\Core.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Object.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
   </ItemGroup>
@@ -50,7 +56,13 @@
     <ClCompile Include="..\Dependencies\glm\detail\glm.cpp">
       <Filter>External CPP Files\glm\detail</Filter>
     </ClCompile>
+    <ClCompile Include="..\Source\Core\Component.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
     <ClCompile Include="..\Source\Core\Core.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Object.cpp">
       <Filter>Source Files\Core</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\main.cpp">
