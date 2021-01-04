@@ -1,6 +1,8 @@
 #pragma once
 #include <chrono>
 #include "Core.h"
+#include "Object.h"
+#include "Window.h"
 #define TIME_NOW std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch()).count()
 
 Core core;
@@ -9,6 +11,8 @@ void Core::Initialize()
 {
 	initial_time_ = TIME_NOW;
 	test_time_ = 0;
+	window = new Window();
+	window->Initialize();
 }
 void Core::Exit()
 {
@@ -33,7 +37,10 @@ void Core::Update()
 		std::cout << "Core frame " << total_time_ << std::endl;
 
 	}
-}
-Object* Core::CreateObject() {
 
+	// update window
+	window->Update();
 }
+//Object* Core::CreateObject() {
+//
+//}

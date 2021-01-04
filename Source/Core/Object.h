@@ -1,13 +1,12 @@
 #pragma once
-#include "Core.h"
 #include <vector>
-#include "Component.h"
+class Component;
 class Object {
 	// size_t index_;
 	// component based architecture - an object can have many different components
 	std::vector<Component*> component_list_;
 	const char* object_name_;
-	friend Core;
+	friend class Core;
 public:
 	void Initialize();
 	void Update(double);

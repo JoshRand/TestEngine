@@ -48,6 +48,9 @@
     <ClInclude Include="..\Source\Core\Object.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
+    <ClInclude Include="..\Source\Core\Window.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
     <ClInclude Include="..\Source\DebugComponents\JetPack.h">
       <Filter>Header Files\DebugComponents</Filter>
     </ClInclude>
@@ -81,6 +84,9 @@
       <Filter>Source Files\Core</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\Core\Object.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window.cpp">
       <Filter>Source Files\Core</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\DebugComponents\JetPack.cpp">

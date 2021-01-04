@@ -1,6 +1,8 @@
+
 #include <iostream>
 #include <vector>
-#include "Object.h"
+#include "Window.h"
+class Object;
 class Core {
 
 	bool engine_running_ = true;
@@ -10,7 +12,7 @@ class Core {
 	double delta_time_;
 	long long initial_time_;
 	long long final_time_;
-
+	Window* window;
 	std::vector<Object*> objects_;
 
 public:
@@ -18,7 +20,7 @@ public:
 	void Initialize();
 	void Exit();
 	void Update();
-	Object* CreateObject();
+	//Object* CreateObject();
 
 };
 
