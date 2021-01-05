@@ -19,7 +19,6 @@ void Window::Initialize()
 
 void Window::Update()
 {
-	
 	glfwSwapBuffers(window);
 	glfwPollEvents();
 }

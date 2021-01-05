@@ -90,6 +90,7 @@
   <ItemGroup>
     <ClInclude Include="..\Source\Core\Component.h" />
     <ClInclude Include="..\Source\Core\Core.h" />
+    <ClInclude Include="..\Source\Core\Input.h" />
     <ClInclude Include="..\Source\Core\Object.h" />
     <ClInclude Include="..\Source\Core\Window.h" />
     <ClInclude Include="..\Source\DebugComponents\JetPack.h" />
@@ -104,6 +105,7 @@
     <ClCompile Include="..\Dependencies\glm\detail\glm.cpp" />
     <ClCompile Include="..\Source\Core\Component.cpp" />
     <ClCompile Include="..\Source\Core\Core.cpp" />
+    <ClCompile Include="..\Source\Core\Input.cpp" />
     <ClCompile Include="..\Source\Core\Object.cpp" />
     <ClCompile Include="..\Source\Core\Window.cpp" />
     <ClCompile Include="..\Source\DebugComponents\JetPack.cpp" />

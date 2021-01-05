@@ -14,7 +14,7 @@ class Core {
 	long long final_time_;
 	Window* window;
 	std::vector<Object*> objects_;
-
+	Input* input;
 public:
 	
 	void Initialize();

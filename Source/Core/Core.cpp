@@ -3,6 +3,7 @@
 #include "Core.h"
 #include "Object.h"
 #include "Window.h"
+#include "Input.h"
 #define TIME_NOW std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch()).count()
 
 Core core;
@@ -13,6 +14,8 @@ void Core::Initialize()
 	test_time_ = 0;
 	window = new Window();
 	window->Initialize();
+	input = new Input();
+	input->Init(window->window);
 }
 void Core::Exit()
 {

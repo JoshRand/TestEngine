@@ -1,17 +1,1 @@
-﻿  imgui.cpp
-  imgui_draw.cpp
-  imgui_impl_glfw.cpp
-  imgui_impl_opengl3.cpp
-  imgui_widgets.cpp
-  glm.cpp
-  Component.cpp
-  Core.cpp
-C:\Users\Josh\Documents\C++\TestEngine\Source\Core\Core.cpp(28,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Josh\Documents\C++\TestEngine\Source\Core\Core.cpp(29,27): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-  Object.cpp
-  Window.cpp
-  JetPack.cpp
-  main.cpp
-  Generating Code...
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-  TestEngine.vcxproj -> C:\Users\Josh\Documents\C++\TestEngine\TestEngine\..\Debug_x64\TestEngine.exe
+﻿
