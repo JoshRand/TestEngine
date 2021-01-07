@@ -38,9 +38,14 @@ void Core::Update()
 	{
 		test_time_ -= 1.0f;
 		std::cout << "Core frame " << total_time_ << std::endl;
-
+		
 	}
-
+		std::cout << input->GetJoyAxes()<< std::endl;
+	/*for (int i = 0; i < 10; ++i)
+	{
+		std::cout << input->GetJoyAxes() + i << std::endl;
+	}*/
+	
 	// update window
 	window->Update();
 }

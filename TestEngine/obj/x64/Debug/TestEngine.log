@@ -1,2 +1,4 @@
-﻿  Input.cpp
+﻿  Core.cpp
+C:\Users\Josh\Documents\C++\TestEngine\Source\Core\Core.cpp(31,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Josh\Documents\C++\TestEngine\Source\Core\Core.cpp(32,27): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
   TestEngine.vcxproj -> C:\Users\Josh\Documents\C++\TestEngine\TestEngine\..\Debug_x64\TestEngine.exe
